@@ -5014,7 +5014,7 @@
 			};
 
 			this.unload = function() {
-				logLog.debug("unload " + this + ", caller: " + this.unload.caller);
+				logLog.debug("unload " + this);
 				if (!consoleClosed) {
 					logLog.debug("really doing unload " + this);
 					consoleClosed = true;
